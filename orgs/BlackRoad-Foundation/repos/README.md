@@ -1,8 +1,7 @@
 # Repos
 
-Repository inventory for this organization.
+Foundation repos: open source contributions, community programs, grants.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (BlackRoad-Foundation)](../)

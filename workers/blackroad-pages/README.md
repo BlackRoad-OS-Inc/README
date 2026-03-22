@@ -1,11 +1,7 @@
-# Worker: blackroad-pages
+# Blackroad Pages
 
-**Wrangler name:** `blackroad-pages`
-
-Source: `~/blackroad-operator/workers/blackroad-pages/`
+BlackRoad Pages Worker — serves static pages.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

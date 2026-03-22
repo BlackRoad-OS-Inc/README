@@ -1,11 +1,7 @@
-# Worker: memory-gate
+# Memory Gate
 
-**Wrangler name:** `memory-gate`
-
-Source: `~/blackroad-operator/workers/memory-gate/`
+Memory Gate Worker — API for accessing the memory system. KV: 1861124753e742709fbc393fffa6c9ba. Bridges local memory to cloud access.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

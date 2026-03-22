@@ -1,11 +1,13 @@
-# blackroad.io
+# Blackroad.Io
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroad.io](https://github.com/BlackRoad-OS-Inc/blackroad.io)
-- RoadCode: [BlackRoad-OS-Inc/blackroad.io/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroad.io)
+**blackroad.io** — main site, product hub. 20 subdomains: app, api, os, prism, docs, chat, search, auth, pay, status, mail, hq, roundtrip, git, cdn, images, code, start, dash, queue. GitHub: BlackRoad-OS-Inc/blackroad.io. Cloudflare Pages. 1,065 pageviews/month.
+
+## Contents
+
+- [Pages](pages/)
+- [Subdomains](subdomains/)
+- [Workers](workers/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

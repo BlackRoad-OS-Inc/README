@@ -1,11 +1,11 @@
-# blackroad.systems
+# Blackroad.Systems
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroad.systems](https://github.com/BlackRoad-OS-Inc/blackroad.systems)
-- RoadCode: [BlackRoad-OS-Inc/blackroad.systems/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroad.systems)
+**blackroad.systems** — fleet status, infrastructure monitoring. 7 subdomains: www, api, fleet, status, metrics, logs, alerts. Self-hosted on Lucidia Docker container (:3005).
+
+## Contents
+
+- [Subdomains](subdomains/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

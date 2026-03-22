@@ -1,11 +1,7 @@
-# blackroadqi.com
+# Blackroadqi.Com
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroadqi.com](https://github.com/BlackRoad-OS-Inc/blackroadqi.com)
-- RoadCode: [BlackRoad-OS-Inc/blackroadqi.com/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroadqi.com)
+**blackroadqi.com** — quantum intelligence research. Associated with BlackRoad-Labs org.
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

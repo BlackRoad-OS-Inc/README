@@ -1,11 +1,7 @@
-# Worker: kpi-aggregator
+# Kpi Aggregator
 
-**Wrangler name:** `name=blackroad-kpi-aggregator`
-
-Source: `~/blackroad-operator/workers/kpi-aggregator/`
+KPI Aggregator Worker — aggregates metrics from all KPI collectors.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

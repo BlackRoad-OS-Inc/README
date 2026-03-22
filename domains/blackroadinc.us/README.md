@@ -1,11 +1,7 @@
-# blackroadinc.us
+# Blackroadinc.Us
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroadinc.us](https://github.com/BlackRoad-OS-Inc/blackroadinc.us)
-- RoadCode: [BlackRoad-OS-Inc/blackroadinc.us/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroadinc.us)
+**blackroadinc.us** — US corporate entity. 4 subdomains: www, api, legal, corporate. Historic: first deployment target (Codex Infinity on DigitalOcean 159.65.43.12).
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

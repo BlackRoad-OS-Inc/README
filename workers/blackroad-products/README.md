@@ -1,11 +1,7 @@
-# Worker: blackroad-products
+# Blackroad Products
 
-**Wrangler name:** `blackroad-products`
-
-Source: `~/blackroad-operator/workers/blackroad-products/`
+BlackRoad Products Worker — product catalog API.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

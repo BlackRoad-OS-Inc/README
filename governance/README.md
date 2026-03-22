@@ -1,6 +1,6 @@
 # Governance
 
-Part of the BlackRoad OS ecosystem.
+Governance systems for BlackRoad OS. Cece Protocol for agent governance, voting mechanisms, proposal tracking, organizational constitution.
 
 ## Contents
 

@@ -1,11 +1,7 @@
-# Worker: roadtv
+# Roadtv
 
-**Wrangler name:** `name=blackroad-roadtv`
-
-Source: `~/blackroad-operator/workers/roadtv/`
+RoadTV Worker — video streaming backend (planned).
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

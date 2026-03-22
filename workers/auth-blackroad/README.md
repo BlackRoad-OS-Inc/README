@@ -1,11 +1,7 @@
-# Worker: auth-blackroad
+# Auth Blackroad
 
-**Wrangler name:** `auth-blackroad`
-
-Source: `~/blackroad-operator/workers/auth-blackroad/`
+Auth Worker — handles JWT authentication, user registration, login. D1-backed user store. 42 registered users.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

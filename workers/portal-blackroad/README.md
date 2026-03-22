@@ -1,11 +1,7 @@
-# Worker: portal-blackroad
+# Portal Blackroad
 
-**Wrangler name:** `portal-blackroad`
-
-Source: `~/blackroad-operator/workers/portal-blackroad/`
+Portal Worker — dashboard at portal.blackroad.io. Shows agent status, search, chat embed.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

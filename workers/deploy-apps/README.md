@@ -1,11 +1,7 @@
-# Worker: deploy-apps
+# Deploy Apps
 
-**Wrangler name:** `apps-blackroadio`
-
-Source: `~/blackroad-operator/workers/deploy-apps/`
+Deploy Apps Worker — automated deployment pipeline.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

@@ -1,11 +1,7 @@
-# Worker: the-seam
+# The Seam
 
-**Wrangler name:** `the-seam`
-
-Source: `~/blackroad-operator/workers/the-seam/`
+The Seam Worker — edge compute for the mesh network boundary.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

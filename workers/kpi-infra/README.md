@@ -1,11 +1,7 @@
-# Worker: kpi-infra
+# Kpi Infra
 
-**Wrangler name:** `name=blackroad-kpi-infra`
-
-Source: `~/blackroad-operator/workers/kpi-infra/`
+KPI Infra Worker — tracks infrastructure metrics (uptime, capacity, cost).
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

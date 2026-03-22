@@ -1,11 +1,11 @@
-# blackroad.company
+# Blackroad.Company
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroad.company](https://github.com/BlackRoad-OS-Inc/blackroad.company)
-- RoadCode: [BlackRoad-OS-Inc/blackroad.company/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroad.company)
+**blackroad.company** — corporate/investor site. 7 subdomains planned: www, api, docs, status, blog, careers, investor.
+
+## Contents
+
+- [Subdomains](subdomains/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

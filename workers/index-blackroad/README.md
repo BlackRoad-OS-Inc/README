@@ -1,11 +1,7 @@
-# Worker: index-blackroad
+# Index Blackroad
 
-**Wrangler name:** `index-blackroad`
-
-Source: `~/blackroad-operator/workers/index-blackroad/`
+Index Worker — handles search indexing and page crawling.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

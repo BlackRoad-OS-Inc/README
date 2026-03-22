@@ -1,11 +1,7 @@
-# Worker: kpi-agents
+# Kpi Agents
 
-**Wrangler name:** `name=blackroad-kpi-agents`
-
-Source: `~/blackroad-operator/workers/kpi-agents/`
+KPI Agents Worker — tracks agent performance metrics. KV: PLACEHOLDER_KV_ID.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

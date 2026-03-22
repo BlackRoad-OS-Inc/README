@@ -1,11 +1,7 @@
-# Worker: database
+# Database
 
-**Wrangler name:** `blackroad-database`
-
-Source: `~/blackroad-operator/workers/database/`
+Database Worker — D1 database management API.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

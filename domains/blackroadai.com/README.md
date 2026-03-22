@@ -1,11 +1,11 @@
-# blackroadai.com
+# Blackroadai.Com
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroadai.com](https://github.com/BlackRoad-OS-Inc/blackroadai.com)
-- RoadCode: [BlackRoad-OS-Inc/blackroadai.com/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroadai.com)
+**blackroadai.com** — AI division. 10 subdomains planned: www, api, models, train, inference, agents, docs, lab, playground, status. Self-hosted on Lucidia Docker (:3006).
+
+## Contents
+
+- [Subdomains](subdomains/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

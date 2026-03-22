@@ -1,11 +1,7 @@
-# Worker: live-stats
+# Live Stats
 
-**Wrangler name:** `blackroad-live-stats`
-
-Source: `~/blackroad-operator/workers/live-stats/`
+Live Stats Worker — real-time statistics endpoint.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

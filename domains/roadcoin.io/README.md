@@ -1,11 +1,11 @@
-# roadcoin.io
+# Roadcoin.Io
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/roadcoin.io](https://github.com/BlackRoad-OS-Inc/roadcoin.io)
-- RoadCode: [BlackRoad-OS-Inc/roadcoin.io/RoadCode](https://github.com/BlackRoad-OS-Inc/roadcoin.io)
+**roadcoin.io** — cryptocurrency. 6 subdomains: www, api, wallet, exchange, docs, faucet. RoadCoin = Python + FastAPI + Redis cryptocurrency for micro-tipping and payments.
+
+## Contents
+
+- [Subdomains](subdomains/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

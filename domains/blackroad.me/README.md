@@ -1,11 +1,7 @@
-# blackroad.me
+# Blackroad.Me
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroad.me](https://github.com/BlackRoad-OS-Inc/blackroad.me)
-- RoadCode: [BlackRoad-OS-Inc/blackroad.me/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroad.me)
+**blackroad.me** — personal/identity portal. 5 subdomains planned: www, api, profile, social, auth.
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

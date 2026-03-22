@@ -1,8 +1,7 @@
 # Pages
 
-Cloudflare Pages deployments.
+Cloudflare Pages for blackroad.io: main landing page (GitHub Pages via CNAME), blog posts, docs, getting-started, changelog, terms, pricing.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (blackroad.io)](../)

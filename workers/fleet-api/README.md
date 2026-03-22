@@ -1,11 +1,7 @@
-# Worker: fleet-api
+# Fleet Api
 
-**Wrangler name:** `fleet-api`
-
-Source: `~/blackroad-operator/workers/fleet-api/`
+Fleet API Worker — serves fleet health data. KV: 9555ec8a18aa4ff0a7ca9aa2b09cf877. Endpoints for node status, metrics.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

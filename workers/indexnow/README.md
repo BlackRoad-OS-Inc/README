@@ -1,11 +1,7 @@
-# Worker: indexnow
+# Indexnow
 
-**Wrangler name:** `blackroad-indexnow`
-
-Source: `~/blackroad-operator/workers/indexnow/`
+IndexNow Worker — submits URLs to search engines (Google, Bing, Yandex) for faster indexing. Weekly cron.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

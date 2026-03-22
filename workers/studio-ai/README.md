@@ -1,11 +1,7 @@
-# Worker: studio-ai
+# Studio Ai
 
-**Wrangler name:** `studio-ai`
-
-Source: `~/blackroad-operator/workers/studio-ai/`
+Studio AI Worker — AI-powered creative tools backend.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

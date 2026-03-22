@@ -1,11 +1,7 @@
-# lucidia.studio
+# Lucidia.Studio
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/lucidia.studio](https://github.com/BlackRoad-OS-Inc/lucidia.studio)
-- RoadCode: [BlackRoad-OS-Inc/lucidia.studio/RoadCode](https://github.com/BlackRoad-OS-Inc/lucidia.studio)
+**lucidia.studio** — creative tools. 5 subdomains: www, api, canvas, video, audio. Associated with BlackRoad-Studio.
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

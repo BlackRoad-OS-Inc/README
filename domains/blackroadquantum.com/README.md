@@ -1,11 +1,7 @@
-# blackroadquantum.com
+# Blackroadquantum.Com
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroadquantum.com](https://github.com/BlackRoad-OS-Inc/blackroadquantum.com)
-- RoadCode: [BlackRoad-OS-Inc/blackroadquantum.com/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroadquantum.com)
+**blackroadquantum.com** — quantum computing. 5 variants: .com, .info, .net, .shop, .store. All associated with BlackRoad-Labs.
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

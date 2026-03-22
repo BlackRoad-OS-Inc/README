@@ -1,11 +1,7 @@
-# Worker: signup
+# Signup
 
-**Wrangler name:** `name=blackroad-signup`
-
-Source: `~/blackroad-operator/workers/signup/`
+Signup Worker — handles new user registration flow. KV: 43a338856e364cd396ced2be2d30ffe9.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

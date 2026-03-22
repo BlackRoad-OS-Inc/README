@@ -1,11 +1,7 @@
-# Worker: br-router
+# Br Router
 
-**Wrangler name:** `br-router`
-
-Source: `~/blackroad-operator/workers/br-router/`
+BR Router Worker — master domain router. Routes all 9 domains by hostname.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

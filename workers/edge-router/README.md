@@ -1,11 +1,7 @@
-# Worker: edge-router
+# Edge Router
 
-**Wrangler name:** `blackroad-edge-router`
-
-Source: `~/blackroad-operator/workers/edge-router/`
+Edge Router Worker — routes traffic across blackroad.io subdomains based on hostname. Zero-config routing.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

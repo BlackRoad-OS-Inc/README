@@ -1,8 +1,7 @@
 # Repos
 
-Repository inventory for this organization.
+Education repos: RoadWork tutoring platform, curriculum, accessibility standards.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (BlackRoad-Education)](../)

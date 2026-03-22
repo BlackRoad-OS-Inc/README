@@ -1,11 +1,7 @@
-# blackroad.network
+# Blackroad.Network
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/blackroad.network](https://github.com/BlackRoad-OS-Inc/blackroad.network)
-- RoadCode: [BlackRoad-OS-Inc/blackroad.network/RoadCode](https://github.com/BlackRoad-OS-Inc/blackroad.network)
+**blackroad.network** — mesh network, nodes. 9 subdomains planned: www, api, mesh, nodes, status, monitor, relay, tunnel, discovery.
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

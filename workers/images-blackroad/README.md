@@ -1,11 +1,7 @@
-# Worker: images-blackroad
+# Images Blackroad
 
-**Wrangler name:** `images-blackroad`
-
-Source: `~/blackroad-operator/workers/images-blackroad/`
+Images Worker — serves brand assets, pixel art, logos from R2 at images.blackroad.io.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

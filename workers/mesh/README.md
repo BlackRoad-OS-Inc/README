@@ -1,11 +1,7 @@
-# Worker: mesh
+# Mesh
 
-**Wrangler name:** `name=blackroad-mesh`
-
-Source: `~/blackroad-operator/workers/mesh/`
+Mesh Worker — WebRTC signaling for the mesh network. KV: 2f25b30fcea84464a8efbb09d4427e5a. mesh.js SDK served from here.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

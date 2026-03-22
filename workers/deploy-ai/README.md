@@ -1,11 +1,7 @@
-# Worker: deploy-ai
+# Deploy Ai
 
-**Wrangler name:** `ai-blackroadio`
-
-Source: `~/blackroad-operator/workers/deploy-ai/`
+Deploy AI Worker — automated deployment for AI services.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

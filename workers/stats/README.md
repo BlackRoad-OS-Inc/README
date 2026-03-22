@@ -1,11 +1,7 @@
-# Worker: stats
+# Stats
 
-**Wrangler name:** `name=blackroad-stats`
-
-Source: `~/blackroad-operator/workers/stats/`
+Stats Worker — serves aggregated statistics. KV: 5dd4ea96ea5e4dffa3aed1708c7eb340.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

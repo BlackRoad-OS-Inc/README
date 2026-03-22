@@ -1,11 +1,7 @@
-# Worker: kpi-dashboard
+# Kpi Dashboard
 
-**Wrangler name:** `name=blackroad-kpi-dashboard`
-
-Source: `~/blackroad-operator/workers/kpi-dashboard/`
+KPI Dashboard Worker — serves the KPI dashboard UI.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

@@ -1,11 +1,7 @@
-# Worker: status-blackroad
+# Status Blackroad
 
-**Wrangler name:** `status-blackroad`
-
-Source: `~/blackroad-operator/workers/status-blackroad/`
+Status Worker — fleet status page at status.blackroad.io.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

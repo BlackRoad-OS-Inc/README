@@ -1,11 +1,7 @@
-# Worker: copilot-cli
+# Copilot Cli
 
-**Wrangler name:** `copilot-cli`
-
-Source: `~/blackroad-operator/workers/copilot-cli/`
+Copilot CLI Worker — AI coding assistant API. KV: PLACEHOLDER_KV_ID.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

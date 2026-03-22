@@ -1,11 +1,7 @@
-# Worker: blackroad-stripe
+# Blackroad Stripe
 
-**Wrangler name:** `blackroad-stripe`
-
-Source: `~/blackroad-operator/workers/blackroad-stripe/`
+BlackRoad Stripe Worker — payment processing integration.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

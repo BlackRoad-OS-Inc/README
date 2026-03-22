@@ -1,11 +1,7 @@
-# Worker: ai-gateway
+# Ai Gateway
 
-**Wrangler name:** `name=blackroad-ai-gateway`
-
-Source: `~/blackroad-operator/workers/ai-gateway/`
+AI Gateway Worker — routes AI requests to appropriate backend (Workers AI, Ollama, or provider APIs). KV: 28ed114677e54e23ad10cc7901f1fd98. Manages model selection, fallback, and rate limiting.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

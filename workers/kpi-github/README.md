@@ -1,11 +1,7 @@
-# Worker: kpi-github
+# Kpi Github
 
-**Wrangler name:** `name=blackroad-kpi-github`
-
-Source: `~/blackroad-operator/workers/kpi-github/`
+KPI GitHub Worker — tracks GitHub org metrics (repos, stars, PRs).
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

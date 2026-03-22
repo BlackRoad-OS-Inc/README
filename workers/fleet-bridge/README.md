@@ -1,11 +1,7 @@
-# Worker: fleet-bridge
+# Fleet Bridge
 
-**Wrangler name:** `blackroad-fleet-bridge`
-
-Source: `~/blackroad-operator/workers/fleet-bridge/`
+Fleet Bridge Worker — bridges fleet data between Pi nodes and cloud.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

@@ -1,8 +1,7 @@
 # Subdomains
 
-Subdomain configurations and routing.
+Subdomains: www, api, explorer, mine, wallet, docs, validator.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (roadchain.io)](../)

@@ -1,11 +1,7 @@
-# Worker: wiki
+# Wiki
 
-**Wrangler name:** `name=blackroad-wiki-dev`
-
-Source: `~/blackroad-operator/workers/wiki/`
+Wiki Worker — documentation and knowledge base serving.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

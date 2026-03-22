@@ -1,11 +1,7 @@
-# Worker: email-setup
+# Email Setup
 
-**Wrangler name:** `blackroad-email-setup`
-
-Source: `~/blackroad-operator/workers/email-setup/`
+Email Setup Worker — email configuration and DNS verification.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

@@ -1,11 +1,11 @@
-# lucidia.earth
+# Lucidia.Earth
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/lucidia.earth](https://github.com/BlackRoad-OS-Inc/lucidia.earth)
-- RoadCode: [BlackRoad-OS-Inc/lucidia.earth/RoadCode](https://github.com/BlackRoad-OS-Inc/lucidia.earth)
+**lucidia.earth** — Lucidia AI platform. 6 subdomains: www, api, chat, memory, canvas, dream. Home of the Dreamer agent. USPTO trademark LUCIDIA #99314724.
+
+## Contents
+
+- [Subdomains](subdomains/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

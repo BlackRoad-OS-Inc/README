@@ -1,7 +1,7 @@
-# Tier 10: specialized
+# 10 Specialized
 
-RoadTube (90% creator rev), SoundRoad, Compass, Beacon (IoT), RoadLang (80+ languages)
+**Tier 10: Specialized** — RoadTube (YouTube alternative, 90%+ creator revenue, voice-to-LaTeX), SoundRoad Studio (music/audio), Compass (analytics), Beacon (IoT), RoadLang (80+ language translation).
 
-→ [All tiers](../)
-→ [Pricing](../../pricing/)
-→ [Products overview](../../)
+## Tunnel Links
+
+- Root: [../../../README.md](../../../README.md)

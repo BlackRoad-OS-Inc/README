@@ -1,11 +1,7 @@
-# Worker: kpi-collector
+# Kpi Collector
 
-**Wrangler name:** `name=blackroad-kpi-collector`
-
-Source: `~/blackroad-operator/workers/kpi-collector/`
+KPI Collector Worker — collects raw metrics from fleet nodes.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

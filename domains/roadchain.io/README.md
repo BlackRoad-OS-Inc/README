@@ -1,11 +1,11 @@
-# roadchain.io
+# Roadchain.Io
 
-- Cloudflare managed
-- GitHub repo: [BlackRoad-OS-Inc/roadchain.io](https://github.com/BlackRoad-OS-Inc/roadchain.io)
-- RoadCode: [BlackRoad-OS-Inc/roadchain.io/RoadCode](https://github.com/BlackRoad-OS-Inc/roadchain.io)
+**roadchain.io** — blockchain/ledger. 7 subdomains: www, api, explorer, mine, wallet, docs, validator. RoadChain = Rust + PostgreSQL blockchain for audit trails and governance.
+
+## Contents
+
+- [Subdomains](subdomains/)
 
 ## Tunnel Links
 
-- All domains: [../](../)
-- Domain map: [../../architecture/domain-map.md](../../architecture/domain-map.md)
-- DNS: [../../infrastructure/network/](../../infrastructure/network/)
+- Root: [../../README.md](../../README.md)

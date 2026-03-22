@@ -1,8 +1,7 @@
 # Repos
 
-Repository inventory for this organization.
+Media repos: RoadTube video, BackRoad social, content creation, BlackCast.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (BlackRoad-Media)](../)

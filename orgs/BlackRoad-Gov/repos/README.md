@@ -1,8 +1,7 @@
 # Repos
 
-Repository inventory for this organization.
+Governance repos: Cece Protocol, compliance frameworks, voting, proposals.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (BlackRoad-Gov)](../)

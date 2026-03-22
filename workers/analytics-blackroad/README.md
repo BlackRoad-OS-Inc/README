@@ -1,11 +1,7 @@
-# Worker: analytics-blackroad
+# Analytics Blackroad
 
-**Wrangler name:** `analytics-blackroad`
-
-Source: `~/blackroad-operator/workers/analytics-blackroad/`
+Analytics Worker — alternative analytics endpoint. Works alongside blackboard for fleet-specific metrics.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

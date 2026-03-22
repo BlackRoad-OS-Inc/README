@@ -1,11 +1,7 @@
-# Worker: email
+# Email
 
-**Wrangler name:** `blackroad-email`
-
-Source: `~/blackroad-operator/workers/email/`
+Email Worker — handles email delivery. KV: b6c3379f5951468b99ec33264b9dd6dd.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

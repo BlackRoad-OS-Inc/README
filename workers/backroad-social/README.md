@@ -1,11 +1,7 @@
-# Worker: backroad-social
+# Backroad Social
 
-**Wrangler name:** `backroad-social`
-
-Source: `~/blackroad-operator/workers/backroad-social/`
+BackRoad Social Worker — sovereign social platform. No vanity metrics, no addiction mechanics. 90% creator revenue share.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

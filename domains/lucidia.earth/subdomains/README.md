@@ -1,8 +1,7 @@
 # Subdomains
 
-Subdomain configurations and routing.
+Subdomains: www, api, chat, memory, canvas, dream.
 
 ## Tunnel Links
 
 - Root: [../../../README.md](../../../README.md)
-- Parent: [../ (lucidia.earth)](../)

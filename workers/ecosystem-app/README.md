@@ -1,11 +1,7 @@
-# Worker: ecosystem-app
+# Ecosystem App
 
-
-
-Source: `~/blackroad-operator/workers/ecosystem-app/`
+Ecosystem App Worker — master ecosystem dashboard.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

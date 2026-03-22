@@ -1,11 +1,7 @@
-# Worker: blackroad-mesh
+# Blackroad Mesh
 
-**Wrangler name:** `mesh-blackroad`
-
-Source: `~/blackroad-operator/workers/blackroad-mesh/`
+BlackRoad Mesh Worker — WebRTC mesh network signaling and coordination.
 
 ## Tunnel Links
 
-- All workers: [../](../)
-- Infrastructure: [../../infrastructure/](../../infrastructure/)
-- Cloudflare: [../../vendor/cloudflare/](../../vendor/cloudflare/)
+- Root: [../../README.md](../../README.md)

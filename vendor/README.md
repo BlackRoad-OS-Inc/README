@@ -1,24 +1,20 @@
-# Vendor
+# Vendors — 14 External Dependencies
 
-Part of the BlackRoad OS ecosystem.
+Every vendor is a **tenant, not owner**. API keys are BlackRoad's permission tokens.
 
-## Contents
-
-- [Amazon](amazon/)
-- [Anthropic](anthropic/)
-- [Apple](apple/)
-- [Cloudflare](cloudflare/)
-- [Digitalocean](digitalocean/)
-- [Github](github/)
-- [Godaddy](godaddy/)
-- [Google](google/)
-- [Meta](meta/)
-- [Microsoft](microsoft/)
-- [Nvidia](nvidia/)
-- [Openai](openai/)
-- [Stripe](stripe/)
-- [Xai](xai/)
-
-## Tunnel Links
-
-- Root: [../README.md](../README.md)
+| Vendor | Relationship | Dependency Level |
+|--------|-------------|-----------------|
+| [Stripe](stripe/) | Payment processing | Only external payment dep |
+| [Cloudflare](cloudflare/) | Edge infrastructure | Heavy (migrating to sovereign) |
+| [GoDaddy](godaddy/) | Domain registrar | Registrar only |
+| [DigitalOcean](digitalocean/) | 2 droplets | Edge + backup |
+| [GitHub](github/) | Code mirror | Mirror of Gitea (primary) |
+| [Google](google/) | Drive storage | 2 drives via rclone |
+| [Anthropic](anthropic/) | Claude Code sessions | Work-for-hire, no IP |
+| [OpenAI](openai/) | Cadence agent | Work-for-hire, no IP |
+| [Meta](meta/) | LLaMA models | Open weights, forked |
+| [xAI](xai/) | Gaia agent | Work-for-hire, no IP |
+| [Microsoft](microsoft/) | GitHub parent, VS Code | Indirect |
+| [Apple](apple/) | macOS (Alexandria) | Hardware only |
+| [NVIDIA](nvidia/) | Benchmarked against | Zero dependency (Hailo-8) |
+| [Amazon](amazon/) | AWS replaced | Zero dependency |

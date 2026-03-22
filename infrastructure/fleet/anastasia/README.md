@@ -1,13 +1,19 @@
-# Anastasia
+# Anastasia — Backup Node
 
-Part of the BlackRoad OS ecosystem.
+**The Backup — redundancy, failover**
 
-## Contents
+| Spec | Value |
+|------|-------|
+| Device | DigitalOcean Droplet |
+| Location | NYC1 |
+| Role | Backup edge, DR failover |
 
-- [Caddy](caddy/)
-- [Wireguard](wireguard/)
+## Services
 
-## Tunnel Links
+- [Caddy](caddy/) — backup TLS edge
+- [WireGuard](wireguard/) — backup VPN tunnel
 
-- Root: [../../../README.md](../../../README.md)
-- Parent: [../ (fleet)](../)
+## Notes
+
+- Failover node — takes over if Gematria goes down
+- Different datacenter (NYC1 vs NYC3) for geographic redundancy

@@ -1,18 +1,25 @@
-# Fleet — 7 Nodes
+# Fleet — 7 Nodes (5/5 Pis Online)
 
-| Node | Device | IP | Role | Key Services |
-|------|--------|----|------|-------------|
-| Alice | Pi 5 | 192.168.4.49 | Gateway | nginx (37 sites), Pi-hole, PostgreSQL, Qdrant, Redis |
-| Cecilia | Pi 5 + Hailo-8 | 192.168.4.96 | Inference | Ollama (16 models), MinIO, PostgreSQL, InfluxDB |
-| Octavia | Pi 5 + Hailo-8 | 192.168.4.101 | Platform | Gitea (273 repos), NATS, Docker, 15 Workers |
-| Aria | Pi 5 | 192.168.4.98 | Monitoring | Headscale, Cloudflared, nginx, InfluxDB |
-| Lucidia | Pi 5 | 192.168.4.38 | Apps | nginx, PowerDNS, Ollama, runners |
-| Gematria | DO Droplet | NYC3 | Edge | Caddy (151 domains), Ollama, PowerDNS, WireGuard |
-| Anastasia | DO Droplet | NYC1 | Backup | Caddy, WireGuard |
+*Last probed: March 22, 2026*
 
-**Compute:** 2x Hailo-8 = 52 TOPS
-**Cost:** $38/month total
+| Node | IP | Temp | Mem Used | Disk | Ports | Services | Ollama | Docker |
+|------|----|------|----------|------|-------|----------|--------|--------|
+| [Alice](alice/) | .49 | 36C | 543M/3.7G | 68% | 42 | 49 | 6 | 0 |
+| [Cecilia](cecilia/) | .96 | 41C | 6.4G/7.9G | 28% | 38 | 42 | 7 | 0 |
+| [Octavia](octavia/) | .101 | 34C | 3.0G/7.9G | 55% | 56 | 58 | 24 | 7 |
+| [Aria](aria/) | .98 | 54C | 1.1G/7.9G | 62% | 29 | 40 | 2 | 0 |
+| [Lucidia](lucidia/) | .38 | 61C | 5.5G/7.9G | 31% | 63 | 49 | 6 | 16 |
+| [Gematria](gematria/) | droplet | — | — | — | — | — | 6 | — |
+| [Anastasia](anastasia/) | droplet | — | — | — | — | — | 0 | — |
 
-→ [Agent assignments](../../agents/fleet/)
-→ [Network planes](../network/)
-→ [NVIDIA benchmarks](../../research/papers/)
+**Totals:** 228 listening ports, 238 services, 51 Ollama models, 23 Docker containers
+
+**Compute:** 2x Hailo-8 = 52 TOPS (Cecilia + Octavia)
+**Cost:** $38/month
+
+## Tunnel Links
+
+- Agent assignments: [../../agents/fleet/](../../agents/fleet/)
+- Network: [../network/](../network/)
+- Architecture: [../../architecture/](../../architecture/)
+- NVIDIA benchmarks: [../../research/papers/nvidia-benchmarks/](../../research/papers/nvidia-benchmarks/)

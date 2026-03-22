@@ -1,15 +1,22 @@
-# Gematria
+# Gematria — Edge Node
 
-Part of the BlackRoad OS ecosystem.
+**The Edge — TLS termination, public gateway**
 
-## Contents
+| Spec | Value |
+|------|-------|
+| Device | DigitalOcean Droplet |
+| Location | NYC3 |
+| Role | Public TLS edge, DNS, VPN hub |
 
-- [Caddy](caddy/)
-- [Ollama](ollama/)
-- [Powerdns](powerdns/)
-- [Wireguard](wireguard/)
+## Services
 
-## Tunnel Links
+- [Caddy](caddy/) — automatic HTTPS for 151 domains
+- [Ollama](ollama/) — 6 models for edge inference
+- [PowerDNS](powerdns/) — ns1.blackroad.io authoritative DNS
+- [WireGuard](wireguard/) — VPN hub connecting to all Pi nodes
 
-- Root: [../../../README.md](../../../README.md)
-- Parent: [../ (fleet)](../)
+## Notes
+
+- Internet-facing edge — all public traffic enters here
+- Caddy handles Let's Encrypt certificates automatically
+- WireGuard mesh hub — routes traffic to Pi fleet via encrypted tunnels

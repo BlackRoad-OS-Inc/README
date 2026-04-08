@@ -103,11 +103,11 @@ Stablecoins process $6T in payments (2024) — that's real. But 80%+ of ICOs wer
 | Node | Device | IP | Role | Key Services |
 |------|--------|----|------|-------------|
 | Alice | Raspberry Pi 5 | 192.168.4.49 | Gateway | nginx (37 sites), Pi-hole, PostgreSQL, Qdrant, Redis |
-| Cecilia | Raspberry Pi 5 | 192.168.4.96 | Inference | Ollama (16 models), MinIO, PostgreSQL, InfluxDB, Hailo-8 |
-| Octavia | Raspberry Pi 5 | 192.168.4.101 | Platform | Gitea (273 repos), NATS, Docker, 15 Workers, Hailo-8 |
+| Cecilia | Raspberry Pi 5 | 192.168.4.96 | Inference | Ollama (9 models), MinIO, PostgreSQL, InfluxDB, Hailo-8 |
+| Octavia | Raspberry Pi 5 | 192.168.4.101 | Platform | Gitea (273 repos), NATS, Docker, 500 Workers, Hailo-8 |
 | Aria | Raspberry Pi 5 | 192.168.4.98 | Monitoring | Headscale, Cloudflared, nginx, InfluxDB |
 | Lucidia | Raspberry Pi 5 | 192.168.4.38 | Apps | nginx, PowerDNS, Ollama, GitHub Actions runners |
-| Gematria | DO Droplet | NYC3 | Edge | Caddy (151 domains), Ollama, PowerDNS (ns1), WireGuard |
+| Gematria | DO Droplet | NYC3 | Edge | Caddy (687 subdomains), Ollama, PowerDNS (ns1), WireGuard |
 | Anastasia | DO Droplet | NYC1 | Backup | Caddy, WireGuard |
 
 **Compute:** 2x Hailo-8 = 52 TOPS across Cecilia + Octavia
@@ -119,10 +119,10 @@ Stablecoins process $6T in payments (2024) — that's real. But 80%+ of ICOs wer
 | Service | Cloud Version | BlackRoad Version | Runs On |
 |---------|--------------|-------------------|---------|
 | Git | GitHub ($21/user/mo) | Gitea (273 repos) | Octavia |
-| AI Inference | OpenAI ($20+/mo) | Ollama (44 models, 52 TOPS) | 4 nodes |
+| AI Inference | OpenAI ($20+/mo) | Ollama (32 models, 52 TOPS) | 4 nodes |
 | Object Storage | AWS S3 | MinIO (4 buckets) | Cecilia |
 | DNS | Cloudflare | PowerDNS | Lucidia + Gematria |
-| Chat | Slack ($8.75/user/mo) | RoundTrip (200 agents) | D1 + Workers AI |
+| Chat | Slack ($8.75/user/mo) | RoundTrip (27 agents) | D1 + Workers AI |
 | VPN | Tailscale ($5/user/mo) | WireGuard mesh (12 tunnels) | All nodes |
 | TLS Edge | Cloudflare | Caddy + Let's Encrypt | Gematria |
 | Database | AWS RDS ($100+/mo) | PostgreSQL | 3 nodes |
@@ -135,22 +135,22 @@ Stablecoins process $6T in payments (2024) — that's real. But 80%+ of ICOs wer
 
 ### The Numbers
 
-- 200 AI agents with persistent memory
-- 273 Gitea repositories
-- 1,253 GitHub repos across 15 orgs
-- 44 Ollama models across 4 nodes
-- 20 root domains on Cloudflare
-- 14 product subdomains on blackroad.io
+- 27 AI agents (The Roadies) with persistent memory across 7 divisions
+- 273 Gitea repositories + 2,700+ GitHub repos
+- 2,700+ GitHub repos across 44 orgs
+- 32 Ollama models across 5 nodes (Cecilia, Aria, Lucidia, Alice, Gematria)
+- 16 root domains on Cloudflare
+- 687 subdomains across 16 root domains
 - 18 Cloudflare tunnels
-- 90 CLI tools
-- 6.5 million lines of code
+- 90 CLI tools + 66 interactive web apps
+- 6.5+ million lines of code
 - $38/month total infrastructure cost
 
 ---
 
 ## 4. The Agents
 
-10 named agents, each with persistent identity, device assignment, and a role in the fleet.
+27 named agents (The Roadies), each with persistent identity, device assignment, and a role in the fleet.
 
 | Agent | Device | Role |
 |-------|--------|------|
@@ -233,7 +233,7 @@ BlackRoad-OS-Inc/RoadCode/
 
 ### Domain Portfolio
 
-20 root domains, all on Cloudflare. Each gets a RoadCode repo under BlackRoad-OS-Inc.
+16 root domains, all on Cloudflare. Each gets a RoadCode repo under BlackRoad-OS-Inc.
 
 | Domain | Purpose |
 |--------|---------|
@@ -259,7 +259,7 @@ BlackRoad-OS-Inc/RoadCode/
 
 ### Subdomains (blackroad.io)
 
-14 product subdomains live: chat, search, pay, tutor, social, canvas, cadence, roadcode, video, live, game, book, work, radio
+687 subdomains live across 16 domains. 18 products, 21 games, 12 math tools, 12 dev tools. All brand-compliant.
 
 ---
 
@@ -272,7 +272,7 @@ BlackRoad-OS-Inc/RoadCode/
 - `br` CLI (90 tools: deploy, docker, nodes, oracle, security, snippets)
 
 **Tier 2: Communication**
-- RoundTrip — sovereign chat (200 agents, 8 channels, D1 persistence)
+- RoundTrip — sovereign chat (27 agents, 8 channels, D1 persistence)
 - BackRoad — social without the sickness (no vanity metrics, no addiction mechanics, 90% creator revenue)
 
 **Tier 3: Search & Knowledge**
@@ -334,7 +334,7 @@ Cloud equivalent for the same workload: $185-700/month. Break-even at 6.2 months
 
 | Tier | Price |
 |------|-------|
-| Free | Search, chat, 200 agents (no account needed) |
+| Free | Search, chat, 27 agents (no account needed) |
 | Solo | $29/month |
 | Team | $99/month |
 | Enterprise | Custom |
@@ -424,9 +424,9 @@ BlackRoad OS deployed autonomous multi-agent fleets on sovereign hardware before
 |------|-----------|
 | November 2025 | Company incorporated (Delaware C-Corp, Stripe Atlas) |
 | December 2025 | First agent fleet (5 Pis, WireGuard mesh, Ollama) |
-| January 2026 | 18 domains, 200+ repos, Hailo-8 AI accelerators |
+| January 2026 | 16 domains, 2,700+ repos, Hailo-8 AI accelerators |
 | February 2026 | Memory system, codex, collaboration protocol |
-| March 2026 | 200 autonomous agents, 30K registered, sovereign stack complete |
+| March 2026 | 27 autonomous agents, 30K registered, sovereign stack complete |
 
 ---
 
@@ -474,7 +474,7 @@ No account required. No credit card. No tracking.
 
 | Tier | Price | What You Get |
 |------|-------|-------------|
-| Road | Free | Search, chat, 200 agents, no account needed |
+| Road | Free | Search, chat, 27 agents, no account needed |
 | Driver | $5/month | Persistent memory, custom agents |
 | Navigator | $10/month | API access, fleet monitoring |
 | Builder | $20/month | Full OS access, deploy to your hardware |
@@ -1147,7 +1147,7 @@ BlackRoad Pi cluster vs NVIDIA hardware:
 - Search (search.blackroad.io) — live, AI-powered
 - Auth (auth.blackroad.io) — live, 42 users
 - RoadPay/Stripe — live, 12 SKUs, payment links active
-- RoundTrip (roundtrip.blackroad.io) — 200 agents, D1 persistence
+- RoundTrip (roundtrip.blackroad.io) — 27 agents, D1 persistence
 - Fleet — 5/5 Pis online, 52 TOPS, WireGuard mesh healthy
 - Memory system — 4,222 entries, hash-chained, searchable
 
@@ -1170,6 +1170,38 @@ Critical path to first dollar: Auth → Billing → Chat Auth Gate → Free Tier
 The road is sovereign. The road is ours.
 
 ---
+
+
+
+### Current State (April 2026 — Updated)
+
+**Live Interactive Apps: 66**
+- 18 products (all 200 OK, all brand-compliant)
+- 21 playable browser games (Snake, Chess, RPG, City Builder, Farm, IsoCity, etc.)
+- 12 math & science tools (Calculator, Pi Explorer, Mandelbrot, Gravity Sim, etc.)
+- 12 developer tools (Regex, JSON, Diff, Hash, JWT, UUID, Cron, etc.)
+- Agent Takeover Mode, Pixel Office, Interactive Index
+
+**Infrastructure**
+- 687 subdomains across 16 root domains — all wired and responding
+- 44 GitHub organizations with brand-consistent profiles
+- 42 game engine forks organized in BlackRoad-Forge
+- brand.css deployed to R2, linked from all products
+- bb.js analytics beacon on all products
+- 91% brand compliance score across all endpoints
+
+**Fleet**
+- 5 active Ollama nodes: Cecilia, Aria, Lucidia, Alice, Gematria
+- Local-first inference patched in 8 workers
+- 27 agents with distinct roles across 7 divisions
+- Hailo-8 AI accelerator verified on Cecilia
+
+**Design**
+- All 18 product pages match brand.blackroad.io design system
+- Canonical CSS: 264 classes, 32KB, deployed to R2
+- 6-stop gradient: #FF6B2B → #FF2255 → #CC00AA → #8844FF → #4488FF → #00D4FF
+- Fonts: Space Grotesk + JetBrains Mono only
+- No Inter, no legacy colors, no colored text
 
 ## 36. Codex — Institutional Knowledge Base
 
